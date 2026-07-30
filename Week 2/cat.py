@@ -8,7 +8,7 @@ def get_number():
         n = int(input("What's n? "))
         if n > 0:
             break
-        return n
+    return n
 
 def meow(n):
     for _ in range(n):
